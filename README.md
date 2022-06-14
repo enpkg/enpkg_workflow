@@ -10,7 +10,7 @@ Repo: https://github.com/mandelbrot-project/data_organization
 
 ## 1) Taxonomical enhancement
 Resolve taxonomy for each sample and link it to Wikidata.  
-Repository: TODO
+Repository: https://github.com/mandelbrot-project/taxo_enhancer
 
 ## 2) Structural annotation and MN
 - ISDB coupled to taxonomical reweighting and MN generation.  

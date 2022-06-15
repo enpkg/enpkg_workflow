@@ -1,4 +1,4 @@
-# single_sample_metaboflow
+# enpkg_workflow
 Summary of the different steps to independantly process metabolomics samples and integrate knowledge to finally build an Experimental Natural Products Knowledge Graph (ENPKG).
 
 # Individual sample scale processing:

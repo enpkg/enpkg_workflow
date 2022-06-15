@@ -27,7 +27,7 @@ These steps needs to be run each time a sample is added to the sample set.
 - Meta_MN: Generate a meta-MN to link spectra among samples (GNPS)
 - chembl_fetcher: download compounds with a reported activity against a given target (Optional)
 
-Repo: [TODO](https://github.com/mandelbrot-project/meta_analysis)
+Repo: https://github.com/mandelbrot-project/meta_analysis
 
 ## 2) Graph builder
 Build a knowledge graph integrating the data generated above.  

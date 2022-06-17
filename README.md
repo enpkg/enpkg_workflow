@@ -14,7 +14,7 @@ Repository: https://github.com/mandelbrot-project/taxo_enhancer
 
 ## 2) Structural annotation and MN
 - ISDB coupled to taxonomical reweighting and MN generation.  
-⚠️ Positive ionization mode only for the moment.
+⚠️ Positive ionization mode only for the moment.  
 Repo: https://github.com/mandelbrot-project/indifiles_annotation
 - Sirius/CSI:FingerID/Canopus.  
 Repo: https://github.com/mandelbrot-project/sirius_canopus

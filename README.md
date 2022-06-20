@@ -1,5 +1,11 @@
 # enpkg_workflow
-Summary of the different steps to independantly process metabolomics samples and integrate knowledge to finally build an Experimental Natural Products Knowledge Graph (ENPKG).
+The **Experimental Natural Products Knowledge Graph** workflow aims at integrating experimental LC-MS/MS metabolomics data into a Wikidata-connected knowledge graph. To allow for iterative addition of samples over time, data from each sample is processed individually. For each of them, the required input data are 1) a minmal metadata file containing the sample's originating species (binomial nomenclature), 2) the feature list (.csv file) and 3) the corresponding fragmentation spectra (.mgf file). The workflow automatically resolves the species taxonomy against Open Tree of Life (ottID), generates a Molecular Network from fragmentation spectra (MN) and annotates features using two different methods (spectral matching to *in silico* DB coupled to taxonomical reweighting and Sirius/CSI:FingerID). 
+
+Once the processing on individual samples is done, different meta-analysis to enhance the comparison among samples are available. Spectra can be compared among samples using a *meta*-MN through GNPS and samples' fingerprint can be compared using MEMO. For annotated compounds, Wikidata ID and NPClassifier ontology is automatically retrieved and it is possible to integrate compounds with activity reported against one (or more) selected biological target in ChEMBL DB. 
+
+Finally, all of the data previously generated is integrated into a RDF knowledge graph. The graph structure allow for optimal query using the SPARQL language and is fully compatible for subsequent addition of samples.
+
+The different steps are described below, with the link to the corresponding repository:
 
 # Individual sample scale processing:
 These steps needs to be run only once for each sample.

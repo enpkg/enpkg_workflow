@@ -38,7 +38,7 @@ Repo: https://github.com/mandelbrot-project/meta_analysis
 
 ## 2) Graph builder
 Build a knowledge graph integrating the data generated above.  
-Repo: https://github.com/mandelbrot-project/graph_sandbox
+Repo: https://github.com/mandelbrot-project/graph_builder
 
 ## 2') Sample explorer
 Explore visually the data generated above.  

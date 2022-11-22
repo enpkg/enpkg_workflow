@@ -18,10 +18,12 @@ Repo: https://github.com/enpkg/enpkg_data_organization
 Resolve taxonomy for each sample and link it to Wikidata.  
 Repository: https://github.com/enpkg/enpkg_taxo_enhancer
 
-## 2) Structural annotation and MN
-- ISDB and MS1 annotation coupled to taxonomical reweighting and MN generation.  
+## 2 and 3) MN, ISDB annotation and taxonomical/chemical consistency reweighting
+- ISDB and MS1 annotation coupled to taxonomical reweighting and MN generation on each sample  
 Repo: https://github.com/enpkg/enpkg_mn_isdb_taxo
-- Sirius/CSI:FingerID/Canopus.  
+
+## 4) SIRIUS/CSI:FingerID/CANOPUS annotation
+Perform SIRIUS/CSI:FingerID/CANOPUS on each sample
 Repo: https://github.com/enpkg/enpkg_sirius_canopus
 
 # Meta-analysis

@@ -19,7 +19,7 @@ Resolve taxonomy for each sample and link it to Wikidata.
 Repository: https://github.com/enpkg/enpkg_taxo_enhancer
 
 ## 2 and 3) MN, ISDB annotation and taxonomical/chemical consistency reweighting
-- ISDB and MS1 annotation coupled to taxonomical reweighting and MN generation on each sample  
+MN generation, ISDB and MS1 annotation coupled to taxonomical and chemical consistency reweighting on each sample  
 Repo: https://github.com/enpkg/enpkg_mn_isdb_taxo
 
 ## 4) SIRIUS/CSI:FingerID/CANOPUS annotation

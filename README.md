@@ -11,20 +11,20 @@ The different steps are described below, with the link to the corresponding repo
 These steps needs to be run only once for each sample.
 
 ## 0) Organize data
-Organize output from MzMine in individual folders for each sample.  
-Repo: https://github.com/enpkg/enpkg_data_organization
+Aim: Organize output from MzMine in individual folders for each sample.  
+Repository: https://github.com/enpkg/enpkg_data_organization
 
 ## 1) Taxonomical enhancement
-Resolve taxonomy for each sample and link it to Wikidata.  
+Aim: Resolve taxonomy for each sample and link it to Wikidata.  
 Repository: https://github.com/enpkg/enpkg_taxo_enhancer
 
 ## 2 and 3) MN, ISDB annotation and taxonomical/chemical consistency reweighting
-MN generation, ISDB and MS1 annotation coupled to taxonomical and chemical consistency reweighting on each sample  
-Repo: https://github.com/enpkg/enpkg_mn_isdb_taxo
+Aim: MN generation, ISDB and MS1 annotation coupled to taxonomical and chemical consistency reweighting on each sample  
+Repository: https://github.com/enpkg/enpkg_mn_isdb_taxo
 
 ## 4) SIRIUS/CSI:FingerID/CANOPUS annotation
-Perform SIRIUS/CSI:FingerID/CANOPUS on each sample
-Repo: https://github.com/enpkg/enpkg_sirius_canopus
+Aim: Perform SIRIUS/CSI:FingerID/CANOPUS on each sample
+Repository: https://github.com/enpkg/enpkg_sirius_canopus
 
 # Meta-analysis
 These steps needs to be run each time a sample is added to the sample set.
@@ -35,10 +35,10 @@ These steps needs to be run each time a sample is added to the sample set.
 - Meta_MN: Generate a meta-MN to link spectra among samples (GNPS)
 - chembl_fetcher: download compounds with a reported activity against a given target (Optional)
 
-Repo: https://github.com/enpkg/enpkg_meta_analysis
+Repository: https://github.com/enpkg/enpkg_meta_analysis
 
 # Final step: RDF formating for data integration
 
 ## 2) Graph builder
-Build a knowledge graph integrating the data generated above.  
-Repo: https://github.com/enpkg/enpkg_graph_builder
+Aim: Build a knowledge graph integrating the data generated above.  
+Repository: https://github.com/enpkg/enpkg_graph_builder

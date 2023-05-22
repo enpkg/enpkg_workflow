@@ -4,9 +4,10 @@ The **Experimental Natural Products Knowledge Graph** workflow aims at integrati
 2) the feature list (.csv file) and 
 3) the corresponding fragmentation spectra (.mgf file). The workflow automatically resolves the species taxonomy against Open Tree of Life (ottID), generates a Molecular Network from fragmentation spectra (MN) and annotates features using two different methods (spectral matching to *in silico* DB coupled to taxonomical reweighting and Sirius/CSI:FingerID). 
 
-Once the processing on individual samples is done, different meta-analysis to enhance the comparison among samples are available. Spectra can be compared among samples using a *meta*-MN through GNPS and samples' fingerprint can be compared using MEMO. For annotated compounds, Wikidata ID and NPClassifier ontology is automatically retrieved and it is possible to integrate compounds with activity reported against one (or more) selected biological target in ChEMBL DB. 
+Once the processing on individual samples is done, for annotated compounds, Wikidata ID and NPClassifier ontology is automatically retrieved and it is possible to integrate compounds with activity reported against one (or more) selected biological target in ChEMBL DB. 
+To compare the spectral fingerprint of the samples, the generated data structure is compatible with a MEMO analysis.  
 
-Finally, all of the data previously generated is integrated into a RDF knowledge graph. The graph structure allow for optimal query using the SPARQL language and is fully compatible for subsequent addition of samples.
+Finally, all of the data previously generated is integrated into a sample-sepcfic RDF knowledge graph. These sample-specific KG from multiple specific can be combined to effectively compare samples based on their metadata and their spectral and structural data. The graph structure allow for optimal query using the SPARQL language and is fully compatible for subsequent addition of samples.
 
 The different steps are described below, with the link to the corresponding repository:
 

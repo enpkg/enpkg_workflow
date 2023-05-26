@@ -1,8 +1,11 @@
 # enpkg_workflow
-The **Experimental Natural Products Knowledge Graph** workflow aims at integrating experimental LC-MS/MS metabolomics data into a Wikidata-connected knowledge graph. To allow for iterative addition of samples over time, data from each sample is processed individually. For each of them, the required input data are 
-1) a minimal metadata file containing the sample's originating species (binomial nomenclature), 
-2) the feature list (.csv file) and 
-3) the corresponding fragmentation spectra (.mgf file). The workflow automatically resolves the species taxonomy against Open Tree of Life (ottID), generates a Molecular Network from fragmentation spectra (MN) and annotates features using two different methods (spectral matching to *in silico* DB coupled to taxonomical reweighting and Sirius/CSI:FingerID). 
+The **Experimental Natural Products Knowledge Graph** workflow aims at integrating experimental LC-MS/MS DDA metabolomics data into a Wikidata-connected knowledge graph. To allow for iterative addition of samples over time, data from each sample is processed individually.
+
+For each of them, the required input data are 
+1) a minimal metadata file containing the sample's originating taxon, 
+2) The LC-MS/MS DDA data
+ 
+After [MZmine](http://mzmine.github.io/) processing, the workflow automatically resolves the species taxonomy against Open Tree of Life (ottID), generates a Molecular Network from fragmentation spectra (MN) and annotates features using two different methods (spectral matching to *in silico* DB coupled to taxonomical reweighting and Sirius/CSI:FingerID). 
 
 Once the processing on individual samples is done, for annotated compounds, Wikidata ID and NPClassifier ontology is automatically retrieved and it is possible to integrate compounds with activity reported against one (or more) selected biological target in ChEMBL DB. 
 To compare the spectral fingerprint of the samples, the generated data structure is compatible with a MEMO analysis.  
@@ -10,6 +13,9 @@ To compare the spectral fingerprint of the samples, the generated data structure
 Finally, all of the data previously generated is integrated into a sample-sepcfic RDF knowledge graph. These sample-specific KG from multiple specific can be combined to effectively compare samples based on their metadata and their spectral and structural data. The graph structure allow for optimal query using the SPARQL language and is fully compatible for subsequent addition of samples.
 
 The different steps are described below, with the link to the corresponding repository:
+
+# Prerequisites:
+You will need to have [Git](https://github.com/git-guides/install-git) and [Anaconda](https://docs.anaconda.com/free/anaconda/install/index.html) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)) installed.
 
 # Individual sample scale processing:
 These steps needs to be run only once for each sample.

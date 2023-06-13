@@ -17,7 +17,7 @@ After [MZmine](http://mzmine.github.io/) processing, the workflow automatically 
 Once the processing on individual samples is done, for annotated compounds, [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) ID and [NPClassifier](https://npclassifier.ucsd.edu/) ontology is automatically retrieved and it is possible to integrate compounds with activity reported against one (or more) selected biological target in [ChEMBL](https://www.ebi.ac.uk/chembl/) DB. 
 To compare the spectral fingerprint of the samples, the generated data structure is compatible with a [MEMO](https://github.com/mandelbrot-project/memo) analysis.  
 
-Finally, all of the data previously generated is integrated into a sample-specific [RDF knowledge graph](https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph/). These sample-specific KG from multiple specific can be combined to effectively compare samples based on their metadata and their spectral and structural data. The graph structure allow for optimal query using the SPARQL language and is fully compatible for subsequent addition of samples.
+Finally, all of the data previously generated is integrated into a sample-specific [RDF knowledge graph](https://en.wikipedia.org/wiki/Knowledge_graph). These sample-specific KG from multiple specific can be combined to effectively compare samples based on their metadata and their spectral and structural data. The graph structure allow for optimal query using the SPARQL language and is fully compatible for subsequent addition of samples.
 
 The different steps are described below, with the link to the corresponding repository to perform the analysis:
 

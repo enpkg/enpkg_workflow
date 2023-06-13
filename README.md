@@ -32,24 +32,24 @@ Repository: https://github.com/enpkg/enpkg_data_organization
 Repository: https://github.com/enpkg/enpkg_taxo_enhancer
 
 ## 3) MN, ISDB annotation and taxonomical/chemical consistency reweighting
-**Aim**: MN generation, ISDB and MS1 annotation coupled to taxonomical and chemical consistency reweighting on each sample  
+**Aim**: MN generation, ISDB and MS1 annotation coupled to taxonomical and chemical consistency reweighting on each sample.  
 Repository: https://github.com/enpkg/enpkg_mn_isdb_taxo
 
 ## 4) SIRIUS/CSI:FingerID/CANOPUS annotation
-**Aim**: Perform SIRIUS/CSI:FingerID/CANOPUS on each sample
+**Aim**: Perform SIRIUS/CSI:FingerID/CANOPUS on each sample.  
 Repository: https://github.com/enpkg/enpkg_sirius_canopus
 
 ## 4) Compounds metadata enhancement
-**Aim**: Retrieve NPClassifier taxonomy and WD ID for each annotated compoud
+**Aim**: Retrieve NPClassifier taxonomy and WD ID for each annotated compoud.  
 Repository: https://github.com/enpkg/enpkg_meta_analysis
 
 ## 5) Graph building
-**Aim**: Build a knowledge graph for each sample integrating the data generated above.  
+**Aim**: Build a knowledge graph for each sample integrating the data generated above.   
 Repository: https://github.com/enpkg/enpkg_graph_builder
 
 # Additional analyses compatible with the ENPKG workflow
 ## MEMO analysis and ChEMBL integration
 - **MEMO**: Generate MEMO matrix from samples' spectral data (optional)
-- **chembl_fetcher**: download compounds with a reported activity against a given target (optional)
+- **chembl_fetcher**: download compounds with a reported activity against a given target (optional)  
 
 Repository: https://github.com/enpkg/enpkg_meta_analysis

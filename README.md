@@ -2,6 +2,7 @@
 
 ![release_badge](https://img.shields.io/github/v/release/enpkg/enpkg_workflow)
 ![license](https://img.shields.io/github/license/enpkg/enpkg_workflow)
+[![Check Markdown links](https://github.com/enpkg/enpkg_workflow/actions/workflows/action.yml/badge.svg)](https://github.com/enpkg/enpkg_workflow/actions/workflows/action.yml)
 
 <p align="center">
  <img src="https://github.com/enpkg/enpkg_workflow/blob/main/logo/enpkg_logo_full.png" width="300">

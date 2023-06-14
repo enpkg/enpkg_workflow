@@ -56,6 +56,7 @@ Repository: https://github.com/enpkg/enpkg_graph_builder
 # Additional analyses compatible with the ENPKG workflow
 ## MEMO analysis and ChEMBL integration
 - **MEMO**: Generate MEMO matrix from samples' spectral data (optional)
-- **chembl_fetcher**: download compounds with a reported activity against a given target (optional)  
+- **chembl_fetcher**: download compounds with a reported activity in ChEMBL against a given target (optional)  
+Compounds retrieved from ChEMBL can be formatted as RDF (**Step 5**) and integrated in the genearted KG.
 
 Repository: https://github.com/enpkg/enpkg_meta_analysis
